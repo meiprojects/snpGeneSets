@@ -1,0 +1,21 @@
+Package: snpGeneSets
+Type: Package
+Title: Genome-wide SNP, Gene and Gene Set Annotation
+Version: 2.0
+Date: 2018-04-30
+Author: H. Mei, L. Li
+Maintainer: H. Mei <hmei@umc.edu>
+Description: The package integrates local genomic annotation databases based on NCBI dbSNP 
+			 138 and 142, Entrez Gene 105 and 106 and MSigDB V4.0, and provides genome-wide annotation
+			 for SNP, Gene and gene sets. It aims to support interpretation of genome-wide 
+			 study (GWS) results and performing post-analysis. The package implements three categories
+			 of functions: 1) genomic mapping annotation for SNPs and genes, and function annotation for
+			 gene sets; 2) bidirectional mapping relationship between SNPs and genes, and between genes
+			 and gene sets; and 3) flexible gene effect measure by SNP association and function-related
+			 gene set/pathway identification by enrichment analysis. The auxiliary functions are also provided
+			 to facilitate annotation and analysis.   
+Depends: R (>= 2.10), RSQLite, downloader
+Imports: DBI (>= 0.2-5), RSQLite (>= 0.8-1), downloader (>= 0.4)
+License: GPL (version 2 or later)
+LazyData: false
+BuildResaveData: best

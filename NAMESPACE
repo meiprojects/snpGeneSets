@@ -1,0 +1,32 @@
+importMethodsFrom(DBI, dbDriver, dbCommit, dbConnect,
+                  dbDisconnect, dbExistsTable, dbGetQuery,
+                  dbReadTable, dbWriteTable, dbListTables)
+importFrom(RSQLite, SQLite, dbGetQuery)
+
+
+export(
+	snp2Gene,
+	getSNPMap,
+	getSetType,
+	getSetGenes,
+	getRegionSNP,
+	getRegionGene,
+	getGeneSetInfo,
+	getGeneMap,
+	getGeneMeasure,
+	uscore,
+	getChrs,
+	gene2Set,
+	setType2setID,
+	setID2setType,
+  enrichTest1,
+  enrichTest1_Perm,
+  enrichTest2,
+  enrichTest2_Perm,
+  getEnrich2P,
+  msigdb_build,
+  aligator,
+  gene2snp,
+  set2Gene
+)  
+                    
